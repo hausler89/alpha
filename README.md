@@ -1,6 +1,6 @@
 <img align="right" width="177" height="119" src="http://schuelerseite.otto-triebes.de/schuelerinfos/CFromm/DSL%20Logo.jpg">
 
-# ALPHA - Imagetracking Test Case
+# ALPHA - Image-Tracking Test Case
 
 Fallversuche bei 120Hz und 240Hz als Referenz für verschiedene Auswertungsmethoden.
 
