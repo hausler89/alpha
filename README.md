@@ -35,6 +35,6 @@ Testauswertung von Georg dauerte ca. 40 Minuten und funktionierte größtenteils
 
 Tracking musste teilweise manuell durchgeführt werden, weil Viana das Objekt nicht erkannte. Automatisches Tracking erzeugt einige extreme Ausreißer. Sowohl manuelles als auch automatisches Tracking erzeugt sehr verrauschte Daten, insb. im Vergleich zu Track-Mate.
 
-Auswertung dauert *geübt* etwa 15 Minuten. Ungebübt gibt es noch keine Messung.
+Auswertung dauert *geübt* etwa 15 Minuten. Ungeübt gibt es noch keine Messung.
 
 ![Viana.NET Plot](https://raw.githubusercontent.com/hausler89/alpha/master/Viana_120.png)
