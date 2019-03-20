@@ -2,9 +2,18 @@
 
 # ALPHA - Image-Tracking Test Case
 
-Fallversuche bei 120Hz und 240Hz als Referenz für verschiedene Auswertungsmethoden.
+Wir untersuchen verschiedene Tracking-Methoden zur Video-Auswertung eines bewegten Körpers. Ziel ist die Erfassung einer Trajektorie in physikalischen Einheiten in 2D. Die Daten sollen geeignet sein, Bewegungen auf ihre Geschwindigkeiten und Beschleunigungen hin zu untersuchen.
 
-Die Aufnahmen aus Olympus-Kamera sind bzgl. der Framerate sehr stabil und werden zuverlässig auf den Computer übertragen. Die Kamera schneidet das Ende des Videos ab, so dass die Aufnahme nicht zu früh beendet werden sollte, da anderenfalls das Ende des Experiments nicht sichtbar sein könnte.
+Wir testen drei verschiedene Systeme, die eine Video-Datei einlesen und die Bewegung eines Körpers erfassen können:
+
+* TrackMate - ImageJ Plugin. https://imagej.net/TrackMate
+* Viana.NET Windows Version für Physikunterricht. http://www.viananet.de/
+* OpenCV Computer Vision - Verschiedene Tracking-Algorithmen, eingehüllt in selbstgeschriebener PyQT Oberfläche https://opencv.org/
+
+## Daten
+Vorhanden sind Referenzaufnahmen von Fallversuchen bei 120Hz und 240Hz für drei verschieden geformte Körper mit selber Masse. Die Fallbewegung wird mit allen drei Systemen getracked und die Trajektorie als t-y-Diagram dargestellt.
+
+Die Aufnahmen aus Olympus-Kamera sind bzgl. der Framerate stabil (<0.1%) und werden zuverlässig auf den Computer übertragen. Die Kamera schneidet das Ende des Videos ab, so dass die Aufnahme nicht zu früh beendet werden sollte, da anderenfalls das Ende des Experiments nicht sichtbar sein könnte.
 
 Wünschenswert wäre eine Kamera mit manuellen Belichtungseinstellungen.
 - - - -
