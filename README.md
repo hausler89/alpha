@@ -1,6 +1,10 @@
 # ALPHA Test case
 
 Fallversuche bei 120Hz und 240Hz als Referenz für verschiedene Auswertungsmethoden.
+
+Die Aufnahmen aus Olympus-Kamera sind bzgl. der Framerate sehr stabil und werden zuverlässig auf den Computer übertragen. Die Kamera schneidet das Ende des Videos ab, so dass die Aufnahme nicht zu früh beendet werden sollte, da anderenfalls das Ende des Experiments nicht sichtbar sein könnte.
+
+Wünschenswert wäre eine Kamera mit manuellen Belichtungseinstellungen.
 - - - -
 ## Track-Mate
 
@@ -12,7 +16,8 @@ Fallversuche bei 120Hz und 240Hz als Referenz für verschiedene Auswertungsmetho
 * Unhandliches Ausgabeformat XML
   * Python-Script zum Plotten ist aber schon geschrieben und funktioniert zuverlässig.
 
-Testauswertung von Georg dauerte ca. 40 Minuten.
+Testauswertung von Georg dauerte ca. 40 Minuten und funktionierte größtenteils problemlos. Kleinere Arbeitsschritt-Korrekturen sind in die Anleitung bereits eingepflegt.
+![Track-Mate Plot](https://raw.githubusercontent.com/hausler89/alpha/master/TrackMate_120.png)
 - - - -
 ## Viana.NET
 
@@ -25,3 +30,7 @@ Testauswertung von Georg dauerte ca. 40 Minuten.
 * Unzuverlässige Erkennung
 * Benötigt externe Video-Konvertierung
 * Manuelles Tracking über 30Hz Bildrate mühsam und langsam
+
+Tracking musste teilweise manuel durchgeführt werden, weil Viana das Objekt nicht erkannte. Automatisches Tracking erzeugt einige extreme Ausreißer. Sowohl manuelles als auch automatisches Tracking erzeugt sehr verrauschte Daten, insb. im Vergleich zu Track-Mate
+
+![Viana.NET Plot](https://raw.githubusercontent.com/hausler89/alpha/master/Viana_120.png)
