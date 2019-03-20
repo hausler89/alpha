@@ -18,7 +18,7 @@ Wünschenswert wäre eine Kamera mit manuellen Belichtungseinstellungen.
 * Unhandliches Ausgabeformat XML
   * Python-Script zum Plotten ist aber schon geschrieben und funktioniert zuverlässig.
 
-Testauswertung von Georg dauerte ca. 40 Minuten und funktionierte größtenteils problemlos. Kleinere Arbeitsschritt-Korrekturen sind in die Anleitung bereits eingepflegt.
+Testauswertung von Georg dauerte ca. 40 Minuten und funktionierte größtenteils problemlos. Geübt dauert die Auswertung nicht länger als 5 Minuten. Kleinere Arbeitsschritt-Korrekturen sind in die Anleitung bereits eingepflegt.
 ![Track-Mate Plot](https://raw.githubusercontent.com/hausler89/alpha/master/TrackMate_120.png)
 - - - -
 ## Viana.NET
@@ -33,6 +33,8 @@ Testauswertung von Georg dauerte ca. 40 Minuten und funktionierte größtenteils
 * Benötigt externe Video-Konvertierung
 * Manuelles Tracking über 30Hz Bildrate mühsam und langsam
 
-Tracking musste teilweise manuel durchgeführt werden, weil Viana das Objekt nicht erkannte. Automatisches Tracking erzeugt einige extreme Ausreißer. Sowohl manuelles als auch automatisches Tracking erzeugt sehr verrauschte Daten, insb. im Vergleich zu Track-Mate
+Tracking musste teilweise manuell durchgeführt werden, weil Viana das Objekt nicht erkannte. Automatisches Tracking erzeugt einige extreme Ausreißer. Sowohl manuelles als auch automatisches Tracking erzeugt sehr verrauschte Daten, insb. im Vergleich zu Track-Mate.
+
+Auswertung dauert *geübt* etwa 15 Minuten. Ungebübt gibt es noch keine Messung.
 
 ![Viana.NET Plot](https://raw.githubusercontent.com/hausler89/alpha/master/Viana_120.png)
