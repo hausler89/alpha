@@ -47,3 +47,6 @@ Tracking musste teilweise manuell durchgeführt werden, weil Viana das Objekt ni
 Auswertung dauert *geübt* etwa 15 Minuten. Ungeübt gibt es noch keine Messung.
 
 ![Viana.NET Plot](https://raw.githubusercontent.com/hausler89/alpha/master/Viana_120.png)
+- - - -
+## Python mit OpenCV
+tbd
